@@ -3,6 +3,15 @@
   --measure: 60ch;
   --space: 1.5rem ;
   --characteristic-gap: .5rem;
+  --bg-color: #ffffff;
+  --text-color: #006600;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: #006600;
+    --text-color: #ffffff;
+  }
 }
 
 * {
@@ -24,8 +33,8 @@ html {
   font-size: 125%;
   font-family: sans-serif;
   line-height: 1.5;
-  /*color: #222; black */
-  color: #006600;
+  background-color: var(--bg-color);
+  color: var(--text-color);
 }
 
 /* Images should be responsive. */
