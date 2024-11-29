@@ -21,6 +21,7 @@
   font-family: inherit;
   line-height: inherit;
   color: inherit;
+  background-color: inherit;
   /* Avoid common layout issues */
   box-sizing: border-box;
 }
@@ -39,6 +40,17 @@ html {
 
 /* Images should be responsive. */
 img { max-inline-size: 100%; }
+
+header {
+  border: solid .125rem;
+  border-radius: 15px;
+  padding: 1%;
+}
+
+body > header {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
 
 article {
   border: solid .125rem;
