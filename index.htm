@@ -6,12 +6,21 @@
   </head>
   <body class="center">
     <header>
-      <label for="filter-select">Filter by:</label>
-      <select>
-        <option value="common-name">Common Name</option>
-        <option value="latin-name">Latin Name</option>
-        <option value="plant-type">Plant Type</option>
+      <label for="plant-type-sort">Sort by type:</label>
+      <select id="plant-type-sort">
+        <option value="Ferns">Ferns</option>
+        <option value="Grasses">Grasses</option>
+        <option value="Herbaceaous">Herbaceous</option>
+        <option value="Shrubs">Shrubs</option>
+        <option value="Trees">Trees</option>
+        <option value="Vines`">Vines</option>
       </select>
+      <label for="filter">Filter by name</label>
+      <input
+        id="filter"
+        type="text"
+        placeholder="northern maidenhair fern, adiantum pedantum"
+      />
     </header>
     <main>
       <div class="stack">
