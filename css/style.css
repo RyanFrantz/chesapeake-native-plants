@@ -43,7 +43,7 @@ img { max-inline-size: 100%; }
 
 header {
   border: solid .125rem;
-  border-radius: 15px;
+  border-radius: .75rem;
   padding: 1%;
 }
 
@@ -54,7 +54,7 @@ body > header {
 
 article {
   border: solid .125rem;
-  border-radius: 15px;
+  border-radius: .75rem;
   padding: 1%;
 }
 
@@ -103,4 +103,10 @@ li {
   display: flex;
   flex-wrap: wrap;
   gap: var(--characteristic-gap, .5rem);
+}
+
+select {
+  border: solid .125rem;
+  border-radius: .75rem;
+  padding: .75%;
 }
