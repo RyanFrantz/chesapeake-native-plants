@@ -110,3 +110,7 @@ input, select {
   border-radius: .75rem;
   padding: .75%;
 }
+
+::placeholder {
+  font-style: italic;
+}

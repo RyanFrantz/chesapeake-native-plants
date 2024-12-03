@@ -4,24 +4,27 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/style.css">
-    <script type="text/javascript" src="js/support.js" defer></script>
+    <script type="text/javascript" src="js/filters.js" defer></script>
   </head>
   <body class="center">
     <header>
-      <label for="plant-type-sort">Sort by type:</label>
-      <select id="plant-type-sort">
-        <option value="Ferns">Ferns</option>
-        <option value="Grasses">Grasses</option>
+      <label for="type-filter">Filter by type:</label>
+      <select id="type-filter" autocomplete="off">
+        <option value="All">All</option>
+        <option value="Fern">Ferns</option>
+        <option value="Grass">Grasses</option>
         <option value="Herbaceaous">Herbaceous</option>
-        <option value="Shrubs">Shrubs</option>
-        <option value="Trees">Trees</option>
-        <option value="Vines`">Vines</option>
+        <option value="Shrub">Shrubs</option>
+        <option value="Tree">Trees</option>
+        <option value="Vine`">Vines</option>
       </select>
-      <label for="filter">Filter by name</label>
+      <label for="name-filter">Filter by name</label>
+      <!-- FIXME: Does this need ARIA markup? -->
       <input
-        id="filter"
+        id="name-filter"
         type="text"
-        placeholder="northern maidenhair fern, adiantum pedantum"
+        placeholder="northern maidenhair fern""
+        autocomplete="off"
       />
     </header>
     <main>
