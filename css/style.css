@@ -45,6 +45,7 @@ header {
   border: solid .125rem;
   border-radius: .75rem;
   padding: 1%;
+  display: flex;
 }
 
 body > header {
