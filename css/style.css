@@ -105,7 +105,7 @@ li {
   gap: var(--characteristic-gap, .5rem);
 }
 
-select {
+input, select {
   border: solid .125rem;
   border-radius: .75rem;
   padding: .75%;
